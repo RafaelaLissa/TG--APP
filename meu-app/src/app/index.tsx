@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 18,
     fontWeight: 'bold',
+    
   },
   brandTitle: {
     color: '#FFFFFF',
@@ -120,6 +121,7 @@ const styles = StyleSheet.create({
   },
   textSection: {
     gap: 12,
+    paddingHorizontal: 12, //Afasta apenas os textos das laterais
   },
   badgeText: {
     color: '#4CC9F0',
@@ -145,8 +147,8 @@ const styles = StyleSheet.create({
   },
   primaryButton: {
     backgroundColor: '#0055FF',
-    width: '100%',
-    paddingVertical: 16,
+    width: '90%', //altera a largura
+    paddingVertical: 16, //altera a altura
     borderRadius: 14,
     alignItems: 'center',
     justifyContent: 'center',
