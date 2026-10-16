@@ -39,9 +39,29 @@ export default function RegisterScreen() {
       alert('Você precisa aceitar os Termos de Uso e Política de Privacidade.');
       return;
     }
+    // Envia a data digitada para calcular na tela da câmera!
+    router.push({
+      pathname: '/age-verification',
+      params: { dataNasc },
+    });
+  };
+
+  {/*const handleCadastro = () => {
+    if (!nome || !email || !senha || !confirmarSenha) {
+      alert('Por favor, preencha todos os campos obrigatórios!');
+      return;
+    }
+    if (senha !== confirmarSenha) {
+      alert('As senhas digitadas não são iguais!');
+      return;
+    }
+    if (!aceitouTermos) {
+      alert('Você precisa aceitar os Termos de Uso e Política de Privacidade.');
+      return;
+    }
 
     alert('Cadastro realizado com sucesso!');
-  };
+  };*/}
 
   return (
     <LinearGradient
