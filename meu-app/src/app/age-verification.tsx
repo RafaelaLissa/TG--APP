@@ -296,7 +296,7 @@ export default function AgeVerificationScreen() {
               <TouchableOpacity 
                 style={styles.primaryButton}
                 activeOpacity={0.85}
-                onPress={() => alert('Parabéns! Entrando no app Focus!')}
+                onPress={() => router.push('/choose-companion')}
               >
                 <Text style={styles.primaryButtonText}>Continuar no Focus</Text>
               </TouchableOpacity>

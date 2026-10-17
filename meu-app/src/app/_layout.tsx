@@ -14,6 +14,8 @@ export default function RootLayout() {
       <Stack.Screen name="register" />
       <Stack.Screen name="age-verification" />
       <Stack.Screen name="guardian" />
+      <Stack.Screen name="choose-companion" />
+      <Stack.Screen name="companion-ready" />
     </Stack>
   );
 }
