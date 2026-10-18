@@ -29,6 +29,9 @@ export default function LoginScreen() {
       return;
     }
     alert(`Bem-vindo de volta, ${nome || 'usuário'}!`);
+    
+    // Navega para a Home:
+    router.push('/home' as any);
   };
 
   return (

@@ -106,7 +106,7 @@ export default function CompanionReadyScreen() {
           <TouchableOpacity 
             style={styles.primaryButton}
             activeOpacity={0.85}
-            onPress={() => alert('Entrando no painel principal do Focus!')}
+            onPress={() => router.push({ pathname: '/home', params: { companionId } } as any)}
           >
             <Text style={styles.primaryButtonText}>Começar</Text>
           </TouchableOpacity>

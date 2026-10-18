@@ -16,6 +16,9 @@ export default function RootLayout() {
       <Stack.Screen name="guardian" />
       <Stack.Screen name="choose-companion" />
       <Stack.Screen name="companion-ready" />
+      <Stack.Screen name="home" />
+      <Stack.Screen name="profile" />
+      <Stack.Screen name="edit-profile" />
     </Stack>
   );
 }
